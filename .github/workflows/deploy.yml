@@ -56,7 +56,7 @@ jobs:
     steps:
       - name: Restart product-app service
         run: |
-          sudo -S systemctl daemon-reload
-          sudo -S systemctl restart product-app
-          sudo systemctl status product-app --no-pager
+          sudo -n systemctl daemon-reload
+          sudo -n systemctl restart product-app
+          sudo -n systemctl status product-app --no-pager
    
