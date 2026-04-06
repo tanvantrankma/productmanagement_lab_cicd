@@ -14,7 +14,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Manufacturer", catalog = "ProductManagement")
+@Table(name = "Manufacturer")
 public class Manufacturer implements Serializable {
 	@Column(name = "ManufacturerId")
 	@Id

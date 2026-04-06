@@ -12,7 +12,7 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "Category", catalog = "ProductManagement")
+@Table(name = "Category")
 public class Category implements Serializable {
 	@Column(name = "CategoryId")
 	@Id
