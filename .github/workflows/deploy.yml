@@ -59,4 +59,5 @@ jobs:
           sudo systemctl daemon-reload
           sudo systemctl restart product-app
           sudo systemctl status product-app --no-pager
+
    
