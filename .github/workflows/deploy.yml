@@ -56,7 +56,7 @@ jobs:
     steps:
       - name: Restart product-app service
         run: |
-          echo "${{ secrets.SERVER_PASSWORD }}" | sudo -S systemctl daemon-reload
-          echo "${{ secrets.SERVER_PASSWORD }}" | sudo -S systemctl restart product-app
+          sudo -S systemctl daemon-reload
+          sudo -S systemctl restart product-app
           sudo systemctl status product-app --no-pager
    
