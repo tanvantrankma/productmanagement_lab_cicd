@@ -1,4 +1,4 @@
-name: CI Build Spring Boot App
+name: CI CD Build Spring Boot App
 
 on:
   push:
